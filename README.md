@@ -28,6 +28,9 @@ The goal of this list is to provide reading material for different levels of cry
 
 ### Books
 
+That seems somewhat out of scope, isn't it? But these are books only fully available online for free. Read them as a sequence of papers if you will.
+
 * [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) by Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptoanalysis and cryptography-related security.
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook), predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
+* [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) by Mike Rosulek. A lot of basic stuff covered really well. No ECC.
