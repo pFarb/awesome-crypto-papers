@@ -14,6 +14,9 @@ The goal of this list is to provide reading material for different levels of cry
 
 * Introducing people to data security and cryptography
   * Cryptography
+  
+  
+* Books
 
 ## The list
 
@@ -22,3 +25,10 @@ The goal of this list is to provide reading material for different levels of cry
 #### Cryptography
 
 [Nuts and Bolts of Encryption: A Primer for Policymakers](https://www.cs.princeton.edu/~felten/encryption_primer.pdf)
+
+
+### Books
+
+[A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) by Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptoanalysis and cryptography-related security.
+[CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook), predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
+[Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
