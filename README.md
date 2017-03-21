@@ -21,7 +21,7 @@ The goal of this list is to provide reading material for different levels of cry
 
 ### Introducing people to data security and cryptography
 
-#### General ryptography
+#### Simple: cryptography for non-engineers
 
 * [Nuts and Bolts of Encryption: A Primer for Policymakers](https://www.cs.princeton.edu/~felten/encryption_primer.pdf)
 
@@ -43,3 +43,7 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook), predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) by Mike Rosulek. A lot of basic stuff covered really well. No ECC.
+
+### Lectures and educational courses
+
+* [Understanding cryptography: A textbook for Students and Practitioners](http://www.crypto-textbook.com/) Textbook, great lectures and problems to solve.
