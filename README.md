@@ -1,4 +1,5 @@
 # awesome-crypto-papers
+
 A curated list of cryptography papers, articles, tutorials and howtos.
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
@@ -6,6 +7,8 @@ A curated list of cryptography papers, articles, tutorials and howtos.
 ### Notes 
 
 The goal of this list is to provide reading material for different levels of cryptographic knowledge. I started it because my day job onboarding engineers at [Cossack Labs](https://www.cossacklabs.com) includes educating them in cryptographic matters and giving advise what to read on specific topics, and that involves finding the same materials repeatedly. Hopefully, it will be useful for someone else, too.
+
+This list intends to capture most of the classic papers necessary to get into certain topics in it's historic context, not bleeding edge (because it moves as you read this). Due to fragmentary nature of my work, many subjects or important papers are omitted, it is not intentional and everyone is welcome to contribute/correct anything.
 
 ### Contributing
 
@@ -24,14 +27,20 @@ The goal of this list is to provide reading material for different levels of cry
 #### Simple: cryptography for non-engineers
 
 * [Nuts and Bolts of Encryption: A Primer for Policymakers](https://www.cs.princeton.edu/~felten/encryption_primer.pdf)
+* [Keys under Doormats](https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf) or why cryptography shouldn't be backdoored, by a all-star committee of crypto researches from around the world. 
 
-### Introduction to specific topics
+#### Brief engineer-oriented introductions
+
+* [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html) by Gary C. Kessler.
+* [Using Encryption for Authentication in Large Networks](http://inst.eecs.berkeley.edu/~cs268/sp02/cached_papers/needham.pdf) by Needham, Schroeder: this is were crypto-based auth starts.
+
+### Specific topics
 
 #### Hashing
 
 * [FIPS 198-1: HMACs](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.198-1.pdf): The Keyed-Hash Message Authentication Code FIPS document
 * [FIPS 202: SHA3](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf): SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions
-* [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem): The best simple explanation of math behind [birthday attack](https://en.wikipedia.org/wiki/Birthday_attack)
+* [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem): The best simple explanation of math behind [birthday attack](https://en.wikipedia.org/wiki/Birthday_attack).
 
 #### Secret key cryptography
 
@@ -60,9 +69,28 @@ The goal of this list is to provide reading material for different levels of cry
 * [Let's construct an elliptic curve: Introducing Crackpot2065](http://blog.bjrn.se/2015/07/lets-construct-elliptic-curve.html)
 * [Explicit-Formulas Database](http://www.hyperelliptic.org/EFD/) for many elliptic curve representation forms.
 
+#### Zero Knowledge Proofs
+
+* [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) classic paper by Goldreich,  Micali and Wigderson.
+* [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design] (http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) by Goldreich,  Micali and Wigderson, a relative to the above. 
+* [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/)
+* [How to Prove a Theorem So No One Else Can Claim It](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1444.1451.ocr.pdf) by Manuel Blum
+* [Information Theoretic Reductions among Disclosure Problems](http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf), Brassau et al.
+* [Knowledge complexity of interactive proof systems](http://groups.csail.mit.edu/cis/pubs/shafi/1989-siamjc.pdf) by GoldWasser, Micali and Rackoff. Defining computational complexity of "knowledge" within zero knowledge proofs. 
+* [A Survey of Zero-Knowledge Proofs with Applications to Cryptography](http://www.austinmohr.com/work/files/zkp.pdf), great intro on original ZKP protocols.
+* 
+
 #### Key Management
 
 * [Recommendation for Key Management – Part 1: General](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf): methodologically very relevant document on goals and procedures of key management. 
+
+#### Cryptoanalysis
+
+
+
+#### Math
+
+* [PRIMES is in P](https://www.cse.iitk.ac.in/users/manindra/algebra/primality_v6.pdf): unconditional deterministic polynomial-time algorithm that determines whether an input number is prime or composite.
 
 ### Books
 
@@ -72,8 +100,11 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook), predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) by Mike Rosulek. A lot of basic stuff covered really well. No ECC.
+* [A Computational Introduction to Number Theory and Algebr](http://www.shoup.net/ntb/) by Victor Shoup, excellent starters book on math universally used in cryptography. 
+
 
 ### Lectures and educational courses
 
 * [Understanding cryptography: A textbook for Students and Practitioners](http://www.crypto-textbook.com/) Textbook, great lectures and problems to solve.
 * [Crypto101](https://www.crypto101.io/) Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
+* [a Course in Cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf) Lecture notes by Rafael Pass, Abhi Shelat
