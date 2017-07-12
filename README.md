@@ -62,6 +62,7 @@ This list intends to capture most of the classic papers necessary to get into ce
 #### Public key cryptography: Elliptic-curve crypto
 
 * [Elliptic Curve cryptography: A gentle introduction](http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
+* [Explain me like I'm 5: How digital signatures actually work](http://blog.oleganza.com/post/162861219668/eli5-how-digital-signatures-actually-work): EdDSA explained with ease and elegance.
 * [Elliptic Curve Cryptography: finite fields and discrete logarithms](http://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/)
 * [Detailed Elliptic Curve cryptography tutorial](https://www.johannes-bauer.com/compsci/ecc/)
 * [Elliptic Curve Cryptography: ECDH and ECDSA](http://andrea.corbellini.name/2015/05/30/elliptic-curve-cryptography-ecdh-and-ecdsa/)
