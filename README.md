@@ -1,8 +1,12 @@
 # Awesome crypto papers
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+
 A curated list of cryptography papers, articles, tutorials and howtos.
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+<p align="center">
+  <img src="https://github.com/pFarb/awesome-crypto-papers/blob/master/awesome-felix-mascot.jpg">
+</p>
 
 ### Notes 
 
