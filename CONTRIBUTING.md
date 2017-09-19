@@ -1,6 +1,6 @@
 # Contributing
 
-Your contributions are always welcome! Keep it sane and in line with the general direction of the list.
+Your contributions are always welcome! Keep it sane and in line with the general direction of the list. G
 
 ## Guidelines
 
@@ -23,6 +23,6 @@ Your contributions are always welcome! Keep it sane and in line with the general
 
 - Remove any trailing whitespace.
 
-- Send a Pull Request with the reason why the library is awesome.
+- Send a Pull Request with the reason why the paper/article is awesome.
 
 - Make sure the tests are passing.
