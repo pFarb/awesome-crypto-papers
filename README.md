@@ -10,16 +10,24 @@ The goal of this list is to provide educational reading material for different l
 
 This list intends to capture most of the classic papers necessary to get into certain topics in it's historic context, not bleeding edge (because it moves as you read this). Due to nature of my work, many subjects or important papers are not covered here, it is not intentional and everyone is welcome to contribute/correct anything.
 
-### Contributing
-
-
-
 ## Contents
 
-* Introducing people to data security and cryptography
-  * Cryptography
-  
-* Books
+* [Introducing people to data security and cryptography](#introducing-people-to-data-security-and-cryptography)
+  * [Simple: cryptography for non-engineers](#simple-cryptography-for-non-engineers)
+  * [Brief engineer-oriented introductions](#brief-engineer-oriented-introductions)
+* [Specific topics](#specific-topcs)
+  * [Hashing](#hashing)
+  * [Secret key cryptography](#secret-key-cryptography)
+  * [Public key cryptography: General and DLP](#public-key-cryptography-general-and-dlp)
+  * [Public key cryptography: Elliptic-curve crypto](#public-key-cryptography-elliptic-curve-crypto)
+  * [Zero Knowledge Proofs](#zero-knowledge-proofs)
+  * [Homomorphic encryption](#homomorphic-encryption)
+  * [Encrypted databases](#encrypted-databases)
+  * [Key Management](#key-management)
+  * [Math](#math)
+* [Books](#books)
+* [Lectures and educational courses](#lectures-and-educational-courses)
+* [Online crypto challenges](#online-crypto-challenges)
 
 ## The list
 
@@ -87,13 +95,13 @@ This list intends to capture most of the classic papers necessary to get into ce
 
 * The Swiss Army Knife of Cryptography [1](https://windowsontheory.org/2012/05/01/the-swiss-army-knife-of-cryptography/) [2](https://windowsontheory.org/2012/05/02/building-the-swiss-army-knife/)
 
+#### Encrypted databases
+
+#### Searchable symmetric encryption
+
 #### Key Management
 
 * [Recommendation for Key Management – Part 1: General](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r4.pdf) - methodologically very relevant document on goals and procedures of key management. 
-
-#### Cryptoanalysis
-
-I haven't done anything 
 
 #### Math
 
