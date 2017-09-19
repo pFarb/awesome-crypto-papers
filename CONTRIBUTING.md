@@ -8,7 +8,7 @@ Your contributions are always welcome! Keep it sane and in line with the general
 
 - Add one commit per Pull Request.
 
-- Add the link: `- [project-name](http://example.com/) - A short description ends with a period.`
+- Add the link: `- [paper-name](http://example.com/) - A short description ends with a period.`
 
   - Keep descriptions concise, maximum number of characters is 350.
 
