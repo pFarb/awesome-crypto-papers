@@ -1,6 +1,6 @@
 # Contributing
 
-Your contributions are always welcome! Keep it sane and in line with the general direction of the list. G
+Your contributions are always welcome! Keep it sane and in line with the general direction of the list. 
 
 ## Guidelines
 
