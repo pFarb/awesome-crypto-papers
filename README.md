@@ -12,7 +12,9 @@ A curated list of cryptography papers, articles, tutorials and howtos for non-cr
 
 The goal of this list is to provide educational reading material for different levels of cryptographic knowledge. I started it because my day job onboarding engineers at [Cossack Labs](https://www.cossacklabs.com) includes educating them in cryptographic matters and giving advise what to read on specific topics, and that involves finding the same materials repeatedly. Hopefully, it will be useful for someone else as well. 
 
-It is aimed at people who are using cryptography in higher-level security systems, and should understand how it works, how it fails and how it is attacked. It is not a list of notable / important / historically important papers. It is not aimed at academics (who have better grasp of what they need anyway), nor it is aimed for systematic study of wanna-be cryptographers (who better follow structured approach under professional guidance).
+It is aimed at people who are using cryptography in higher-level security systems, and should understand how it works, how it fails and how it is attacked. It is not a list of notable / important / historically important papers. It is not aimed at academics (who have better grasp of what they need anyway), nor it is aimed for systematic study of wanna-be cryptographers (who better follow structured approach under professional guidance). 
+
+It will be extended gradually as I find something of "must-have" value.
 
 ## Contents
 
@@ -72,7 +74,7 @@ It is aimed at people who are using cryptography in higher-level security system
 * [New Features of Latin Dances: Analysis of Salsa, ChaCha, and Rumba](https://eprint.iacr.org/2007/472.pdf) - Analysis of Salsa20 family of ciphers, by Jean-Philippe Aumasson et al.
 * [ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS)](https://tools.ietf.org/html/draft-ietf-tls-chacha20-poly1305-04) - IETF Draft of ciphersuite family, by Adam Langley et al.
 * [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - an great example of stream cipher cryptoanalysis, by Yukiyasu Tsunoo et al.
-* [](https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf#page=1) - original Rijndael proposal
+* [AES submission document on Rijndael](https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf#page=1) - original Rijndael proposal by Joan Daemen and Vincent Rijmen
 
 #### Public key cryptography: General and DLP
 
@@ -105,7 +107,7 @@ It is aimed at people who are using cryptography in higher-level security system
 #### Zero Knowledge Proofs
 
 * [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - classic paper by Goldreich,  Micali and Wigderson.
-* [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design] (http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - by Goldreich,  Micali and Wigderson, a relative to the above. 
+* [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - by Goldreich,  Micali and Wigderson, a relative to the above. 
 * [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/)
 * [How to Prove a Theorem So No One Else Can Claim It](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1444.1451.ocr.pdf) - by Manuel Blum
 * [Information Theoretic Reductions among Disclosure Problems](http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf) - Brassau et al.
