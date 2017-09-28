@@ -24,6 +24,7 @@ It will be extended gradually as I find something of "must-have" value.
 * [Specific topics](#specific-topcs)
   * [Hashing](#hashing)
   * [Secret key cryptography](#secret-key-cryptography)
+  * [Cryptoanalysis](#cryptoanalysis)
   * [Public key cryptography: General and DLP](#public-key-cryptography-general-and-dlp)
   * [Public key cryptography: Elliptic-curve crypto](#public-key-cryptography-elliptic-curve-crypto)
   * [Zero Knowledge Proofs](#zero-knowledge-proofs)
@@ -61,6 +62,7 @@ It will be extended gradually as I find something of "must-have" value.
 * [FIPS 202: SHA3](http://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf) - SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions
 * [Birthday problem](https://en.wikipedia.org/wiki/Birthday_problem) - The best simple explanation of math behind [birthday attack](https://en.wikipedia.org/wiki/Birthday_attack).
 * [On the Security of HMAC and NMAC Based on HAVAL, MD4, MD5, SHA-0 and SHA-1](https://eprint.iacr.org/2006/187.pdf) - security analysis of different legacy HMAC schemes by Jongsung Kim et al. 
+* [On the Security of Randomized CBC-MAC Beyond the Birthday Paradox Limit ](https://eprint.iacr.org/2001/074) - security of randomized CBC-MACs and a new construction that resists birthday paradox attacks and provably reaches full security, by E. Jaulmes et al.
 
 #### Secret key cryptography
 
@@ -73,8 +75,20 @@ It will be extended gradually as I find something of "must-have" value.
 * [Salsa20 family of stream ciphers](https://cr.yp.to/snuffle/salsafamily-20071225.pdf) - broad explanation of Salsa20 security cipher by Daniel J. Bernstein.
 * [New Features of Latin Dances: Analysis of Salsa, ChaCha, and Rumba](https://eprint.iacr.org/2007/472.pdf) - Analysis of Salsa20 family of ciphers, by Jean-Philippe Aumasson et al.
 * [ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS)](https://tools.ietf.org/html/draft-ietf-tls-chacha20-poly1305-04) - IETF Draft of ciphersuite family, by Adam Langley et al.
-* [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - an great example of stream cipher cryptoanalysis, by Yukiyasu Tsunoo et al.
 * [AES submission document on Rijndael](https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf#page=1) - original Rijndael proposal by Joan Daemen and Vincent Rijmen
+* [Ongoing Research Areas in Symmetric Cryptography](http://www.ecrypt.eu.org/ecrypt1/documents/D.STVL.3-2.5.pdf) - overview of ongoing research in secret key crypto and hashes by ECRYPT Network of Excellence in Cryptology 
+* [The Galois/Counter Mode of Operation (GCM)
+](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.695&rep=rep1&type=pdf) - original paper introducing GCM, by by David A. McGrew and John Viega.
+* [The Security and Performance of the
+Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - design, analysis and security of GCM, and, more specifically, AES GCM mode, by David A. McGrew and John Viega.
+
+#### Cryptoanalysis
+
+* [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - an great example of stream cipher cryptoanalysis, by Yukiyasu Tsunoo et al.
+* [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - applying slide attacks (typical cryptoanalysis technique for block ciphers) to hash functions, M. Gorski et al.
+* [Self-Study Course in Block Cipher Cryptanalysis](https://www.schneier.com/academic/archives/2000/01/self-study_course_in.html) - attempt to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms, by Bruce Schneier.
+* [Statistical Cryptanalysis of Block Ciphers](http://crypto.junod.info/phdthesis.pdf) - by Pascal Junod
+* [Cryptoanalysis of block ciphers and protocols](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - by Elad Pinhas Barkan.
 
 #### Public key cryptography: General and DLP
 
@@ -106,6 +120,7 @@ It will be extended gradually as I find something of "must-have" value.
 
 #### Zero Knowledge Proofs
 
+* [Proofs of knowledge](http://cseweb.ucsd.edu/~mihir/papers/pok.html) - A pair of papers which investigate the notions of proof of knowledge and proof of computational ability, M. Bellare and O. Goldreich.
 * [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - classic paper by Goldreich,  Micali and Wigderson.
 * [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - by Goldreich,  Micali and Wigderson, a relative to the above. 
 * [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/)
@@ -129,6 +144,7 @@ It will be extended gradually as I find something of "must-have" value.
 That seems somewhat out of scope, isn't it? But these are books only fully available online for free. Read them as a sequence of papers if you will.
 
 * [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - by Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptoanalysis and cryptography-related security.
+* [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - broad overview of design and cryptoanalysis of various ciphers and hash functions, by Bart Van Rompay.
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook) - predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) - by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - by Mike Rosulek. A lot of basic stuff covered really well. No ECC.
