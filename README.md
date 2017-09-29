@@ -12,9 +12,9 @@ A curated list of cryptography papers, articles, tutorials and howtos for non-cr
 
 The goal of this list is to provide educational reading material for different levels of cryptographic knowledge. I started it because my day job onboarding engineers at [Cossack Labs](https://www.cossacklabs.com) includes educating them in cryptographic matters and giving advise what to read on specific topics, and that involves finding the same materials repeatedly. Hopefully, it will be useful for someone else as well. 
 
-It is aimed at people who are using cryptography in higher-level security systems, and should understand how it works, how it fails and how it is attacked. It is not a list of notable / important / historically important papers. It is not aimed at academics (who have better grasp of what they need anyway), nor it is aimed for systematic study of wanna-be cryptographers (who better follow structured approach under professional guidance). 
+It is aimed at people who are using cryptography in higher-level security systems to implement database encryption, secure sharing, end-to-end encryption in various schemes, and should understand how it works, how it fails and how it is attacked. It is not a list of notable / important / historically important papers (although many of them are here). It is not aimed at academics (who have better grasp of what they need anyway), nor it is aimed for systematic study of wanna-be cryptographers (who better follow structured approach under professional guidance). 
 
-It will be extended gradually as I find something of "must-have" value.
+It will be extended gradually as I find something of "must-have" value. Pull requests are very welcome.
 
 ## Contents
 
