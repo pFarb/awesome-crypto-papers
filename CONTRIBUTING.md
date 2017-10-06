@@ -1,6 +1,6 @@
 # Contributing
 
-Your contributions are always welcome! Keep it sane and in line with the general direction of the list. 
+Your contributions are always welcome! Keep it sane and in line with the general direction of the list, which is helping security engineers and normal developers to use crypto properly, get broad context of how practical crypto works, is attacked, and should be implemented/used.
 
 ## Guidelines
 
