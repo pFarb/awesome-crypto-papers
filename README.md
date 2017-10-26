@@ -150,6 +150,8 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) - by Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - by Mike Rosulek. A lot of basic stuff covered really well. No ECC.
 * [A Computational Introduction to Number Theory and Algebra](http://www.shoup.net/ntb/) - by Victor Shoup, excellent starters book on math universally used in cryptography. 
+* [Serious Cryptography](https://seriouscrypto.com/) - by Jean-Philippe Aumasson, practical guide to modern encryption that breaks down the fundamental mathematical concepts at the heart of cryptography without shying away from meaty discussions of how they work. 
+
 
 <hr>
 
