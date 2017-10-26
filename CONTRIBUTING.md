@@ -6,6 +6,8 @@ Your contributions are always welcome! Keep it sane and in line with the general
 
 - Add one link per commit.
 
+- No links to paid resources - only reference materials available for free (or at cost of an e-mail).
+
 - Add one commit per Pull Request.
 
 - Add the link: `- [paper-name](http://example.com/) - A short description ends with a period.` Mentioning authors in description is recommended, if there are too many - mention first 2 and "et al.".
