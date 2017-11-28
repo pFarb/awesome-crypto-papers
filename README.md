@@ -3,7 +3,7 @@
 A curated list of cryptography papers, articles, tutorials and howtos for non-cryptographers.
 
 <p align="center">
-  <img src="https://github.com/pFarb/awesome-crypto-papers/blob/master/awesome-felix-mascot.jpg" style="width: 50%">
+  <img src="https://github.com/pFarb/awesome-crypto-papers/blob/master/awesome-felix-big.jpg" style="width: 50%">
 </p>
 
 ### Notes 
