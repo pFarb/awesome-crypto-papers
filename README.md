@@ -27,6 +27,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
   * [Public key cryptography: Elliptic-curve crypto](#public-key-cryptography-elliptic-curve-crypto) - ECC, with focus on pratcial cryptosystems.
   * [Zero Knowledge Proofs](#zero-knowledge-proofs) - Proofs of knowledge and other non-revealing cryptosystems.
   * [Math](#math) - useful math materials in cryptographic context.
+  * [Post-quantum cryptography](#post-quantum-cryptography) - Cryptography in post-quantum period.
 * [Books](#books)
 * [Lectures and educational courses](#lectures-and-educational-courses)
 * [Online crypto challenges](#online-crypto-challenges)
@@ -44,6 +45,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 * [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html) - By Gary C. Kessler.
 * [Using Encryption for Authentication in Large Networks](http://inst.eecs.berkeley.edu/~cs268/sp02/cached_papers/needham.pdf) - By Needham, Schroeder: this is were crypto-based auth starts.
+* [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon
 
 #### General cryptographic interest
 
@@ -136,6 +138,12 @@ Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - 
 
 * [PRIMES is in P](https://www.cse.iitk.ac.in/users/manindra/algebra/primality_v6.pdf) - Unconditional deterministic polynomial-time algorithm that determines whether an input number is prime or composite.
 
+#### Post-quantum cryptography
+
+* [Post-quantum cryptography - dealing with the fallout of physics success](https://eprint.iacr.org/2017/314.pdf) - Brief observation of mathematical tasks that can be used to build cryptosystems secure against attacks by post-quantum computers
+* [Post-quantum cryptography](https://www.researchgate.net/profile/Nicolas_Sendrier/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - Introduction to post-quantum cryptography
+* [Post-quantum RSA](https://cr.yp.to/papers/pqrsa-20170419.pdf) - Daniel Bernshtein's insight how to save RSA in post-quantum period
+
 <hr>
 
 ### Books
@@ -156,6 +164,8 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [Understanding cryptography: A textbook for Students and Practitioners](http://www.crypto-textbook.com/) - Textbook, great lectures and problems to solve.
 * [Crypto101](https://www.crypto101.io/) - Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
 * [a Course in Cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf) - Lecture notes by Rafael Pass, Abhi Shelat
+* [Lecture Notes on Cryptography](https://cseweb.ucsd.edu/~mihir/papers/gb.pdf) - Famous set of lectures on cryptography by Shafi Goldwasser (MIT), M. Bellare (University of California) 
+* [Introduction to Cryptography by Christof Paar](https://www.youtube.com/watch?v=2aHkqB2-46k) - Video course by Christof Paar (University of Bochum in Germany). In english.
 * [Cryptography I](https://www.coursera.org/learn/crypto) - Stanford University course on Coursera, taught by prof. Dan Boneh. [Cryptography II](https://www.coursera.org/learn/crypto2) is still in development.
 <hr>
 
