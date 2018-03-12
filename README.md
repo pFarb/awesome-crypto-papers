@@ -50,6 +50,11 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Another Look at “Provable Security”](https://eprint.iacr.org/2004/152.pdf) - Inquiries into formalism and naive intuition behind security proofs, by Neal Koblitz et al.
 * [The security impact of a new cryptographic library](https://cryptojedi.org/papers/coolnacl-20120725.pdf) - Introducory paper on NaCl, discussing important aspects of implementing cryptography and using it as a larger building block in security systems, by Daniel J. Bernstein, Tanja Lange, Peter Schwabe.
 
+#### Fundamentals
+
+* [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon
+
+
 <hr>
 
 ### Specific topics
