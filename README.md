@@ -1,6 +1,6 @@
 # Awesome Crypto Papers  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of cryptography papers, articles, tutorials and howtos for non-cryptographers.
+A curated list of [cryptography](https://en.wikipedia.org/wiki/Cryptography) papers, articles, tutorials and howtos for non-cryptographers.
 
 <p align="center">
   <img src="https://github.com/pFarb/awesome-crypto-papers/blob/master/awesome-felix-big.jpg" style="width: 50%">
@@ -38,14 +38,14 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 #### Simple: cryptography for non-engineers
 
-* [Nuts and Bolts of Encryption: A Primer for Policymakers](https://www.cs.princeton.edu/~felten/encryption_primer.pdf) 
+* [Nuts and Bolts of Encryption: A Primer for Policymakers](https://www.cs.princeton.edu/~felten/encryption_primer.pdf).
 * [Keys under Doormats](https://dspace.mit.edu/bitstream/handle/1721.1/97690/MIT-CSAIL-TR-2015-026.pdf) - Or why cryptography shouldn't be backdoored, by a all-star committee of crypto researches from around the world. 
 
 #### Brief introductions
 
 * [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html) - By Gary C. Kessler.
 * [Using Encryption for Authentication in Large Networks](http://inst.eecs.berkeley.edu/~cs268/sp02/cached_papers/needham.pdf) - By Needham, Schroeder: this is were crypto-based auth starts.
-* [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon
+* [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon.
 
 #### General cryptographic interest
 
@@ -99,22 +99,22 @@ Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - 
 * [Secure Communications Over Insecure Channels ](http://www.merkle.com/1974/PuzzlesAsPublished.pdf) - Paper by R. Merkle,   predated "New directions in cryptography" though it was published after it. The Diffie-Hellman key exchange is an implementation of such a Merkle system.
 * [On the Security of Public Key Protocols ](http://www.cs.huji.ac.il/~dolev/pubs/dolev-yao-ieee-01056650.pdf) - Dolev-Yao model is a formal model, used to prove properties of interactive cryptographic protocols.
 * [How to Share a Secret](https://cs.jhu.edu/~sdoshi/crypto/papers/shamirturing.pdf) - A safe method for sharing secrets.
-* [Twenty Years of Attacks on the RSA Cryptosystem](http://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf) - great inquiry into attacking RSA and it's internals, by Dan Boneh. 
+* [Twenty Years of Attacks on the RSA Cryptosystem](http://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf) - Great inquiry into attacking RSA and it's internals, by Dan Boneh. 
 * [Remote timing attacks are practical](http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf) - An example in attacking practical crypto implementationby D. Boneh, D. Brumley.
 * [The Equivalence Between the DHP and DLP for Elliptic Curves Used in Practical Applications, Revisited](https://eprint.iacr.org/2005/307.pdf) - by K. Bentahar.
 
 #### Public key cryptography: Elliptic-curve crypto
 
-* [Elliptic Curve cryptography: A gentle introduction](http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/)
+* [Elliptic Curve cryptography: A gentle introduction](http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/).
 * [Explain me like I'm 5: How digital signatures actually work](http://blog.oleganza.com/post/162861219668/eli5-how-digital-signatures-actually-work) - EdDSA explained with ease and elegance.
-* [Elliptic Curve Cryptography: finite fields and discrete logarithms](http://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/)
-* [Detailed Elliptic Curve cryptography tutorial](https://www.johannes-bauer.com/compsci/ecc/)
-* [Elliptic Curve Cryptography: ECDH and ECDSA](http://andrea.corbellini.name/2015/05/30/elliptic-curve-cryptography-ecdh-and-ecdsa/)
-* [Elliptic Curve Cryptography: breaking security and a comparison with RSA](http://andrea.corbellini.name/2015/06/08/elliptic-curve-cryptography-breaking-security-and-a-comparison-with-rsa/)
+* [Elliptic Curve Cryptography: finite fields and discrete logarithms](http://andrea.corbellini.name/2015/05/23/elliptic-curve-cryptography-finite-fields-and-discrete-logarithms/).
+* [Detailed Elliptic Curve cryptography tutorial](https://www.johannes-bauer.com/compsci/ecc/).
+* [Elliptic Curve Cryptography: ECDH and ECDSA](http://andrea.corbellini.name/2015/05/30/elliptic-curve-cryptography-ecdh-and-ecdsa/).
+* [Elliptic Curve Cryptography: breaking security and a comparison with RSA](http://andrea.corbellini.name/2015/06/08/elliptic-curve-cryptography-breaking-security-and-a-comparison-with-rsa/).
 * [Elliptic Curve Cryptography: the serpentine course of a paradigm shift](http://eprint.iacr.org/2008/390.pdf) - Historic inquiry into development of ECC and it's adoption.
 * [Let's construct an elliptic curve: Introducing Crackpot2065](http://blog.bjrn.se/2015/07/lets-construct-elliptic-curve.html) - Fine example of building up ECC from scratch.
 * [Explicit-Formulas Database](http://www.hyperelliptic.org/EFD/) - For many elliptic curve representation forms.
-* [Curve25519: new Diffie-Hellman speed records](https://cr.yp.to/ecdh/curve25519-20060209.pdf) - Paper on Curve25519 
+* [Curve25519: new Diffie-Hellman speed records](https://cr.yp.to/ecdh/curve25519-20060209.pdf) - Paper on Curve25519.
 * [Software implementation of the NIST elliptic curves over prime fields](http://delta.cs.cinvestav.mx/~francisco/arith/julio.pdf) - Pracitcal example of implementing elliptic curve crypto, by M. Brown et al.
 * [High-speed high-security signatures](https://ed25519.cr.yp.to/ed25519-20110926.pdf) - Seminal paper on EdDSA signatures on ed25519 curve by Daniel J. Bernstein et al.
 
@@ -123,7 +123,7 @@ Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - 
 * [Proofs of knowledge](http://cseweb.ucsd.edu/~mihir/papers/pok.html) - A pair of papers which investigate the notions of proof of knowledge and proof of computational ability, M. Bellare and O. Goldreich.
 * [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - Classic paper by Goldreich,  Micali and Wigderson.
 * [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - By Goldreich,  Micali and Wigderson, a relative to the above. 
-* [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/)
+* [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/).
 * [How to Prove a Theorem So No One Else Can Claim It](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1444.1451.ocr.pdf) - By Manuel Blum.
 * [Information Theoretic Reductions among Disclosure Problems](http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf) - Brassau et al.
 * [Knowledge complexity of interactive proof systems](http://groups.csail.mit.edu/cis/pubs/shafi/1989-siamjc.pdf) - By GoldWasser, Micali and Rackoff. Defining computational complexity of "knowledge" within zero knowledge proofs. 
@@ -140,9 +140,9 @@ Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - 
 
 #### Post-quantum cryptography
 
-* [Post-quantum cryptography - dealing with the fallout of physics success](https://eprint.iacr.org/2017/314.pdf) - Brief observation of mathematical tasks that can be used to build cryptosystems secure against attacks by post-quantum computers
-* [Post-quantum cryptography](https://www.researchgate.net/profile/Nicolas_Sendrier/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - Introduction to post-quantum cryptography
-* [Post-quantum RSA](https://cr.yp.to/papers/pqrsa-20170419.pdf) - Daniel Bernshtein's insight how to save RSA in post-quantum period
+* [Post-quantum cryptography - dealing with the fallout of physics success](https://eprint.iacr.org/2017/314.pdf) - Brief observation of mathematical tasks that can be used to build cryptosystems secure against attacks by post-quantum computers.
+* [Post-quantum cryptography](https://www.researchgate.net/profile/Nicolas_Sendrier/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - Introduction to post-quantum cryptography.
+* [Post-quantum RSA](https://cr.yp.to/papers/pqrsa-20170419.pdf) - Daniel Bernshtein's insight how to save RSA in post-quantum period.
 
 <hr>
 
@@ -163,8 +163,8 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 
 * [Understanding cryptography: A textbook for Students and Practitioners](http://www.crypto-textbook.com/) - Textbook, great lectures and problems to solve.
 * [Crypto101](https://www.crypto101.io/) - Crypto 101 is an introductory course on cryptography, freely available for programmers of all ages and skill levels.
-* [a Course in Cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf) - Lecture notes by Rafael Pass, Abhi Shelat
-* [Lecture Notes on Cryptography](https://cseweb.ucsd.edu/~mihir/papers/gb.pdf) - Famous set of lectures on cryptography by Shafi Goldwasser (MIT), M. Bellare (University of California) 
+* [A Course in Cryptography](https://www.cs.cornell.edu/courses/cs4830/2010fa/lecnotes.pdf) - Lecture notes by Rafael Pass, Abhi Shelat.
+* [Lecture Notes on Cryptography](https://cseweb.ucsd.edu/~mihir/papers/gb.pdf) - Famous set of lectures on cryptography by Shafi Goldwasser (MIT), M. Bellare (University of California).
 * [Introduction to Cryptography by Christof Paar](https://www.youtube.com/watch?v=2aHkqB2-46k) - Video course by Christof Paar (University of Bochum in Germany). In english.
 * [Cryptography I](https://www.coursera.org/learn/crypto) - Stanford University course on Coursera, taught by prof. Dan Boneh. [Cryptography II](https://www.coursera.org/learn/crypto2) is still in development.
 <hr>
@@ -173,7 +173,7 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 
 Not exactly papers, but crypto challenges are awesome educational material.
 
-* [Cryptopals crypto challenges](https://cryptopals.com/)
+* [Cryptopals crypto challenges](https://cryptopals.com/).
 
 
 ## License
