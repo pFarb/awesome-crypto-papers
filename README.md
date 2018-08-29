@@ -16,10 +16,10 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 ## Contents
 
-* [Introducing people to data security and cryptography](#introducing-people-to-data-security-and-cryptography)
-  * [Simple: cryptography for non-engineers](#simple-cryptography-for-non-engineers)
-  * [Brief engineer-oriented introductions](#brief-engineer-oriented-introductions)
-* [Specific topics](#specific-topcs)
+* [Introducing people to data security and cryptography](#introducing-people-to-data-security-and-cryptography).
+  * [Simple: cryptography for non-engineers](#simple-cryptography-for-non-engineers).
+  * [Brief engineer-oriented introductions](#brief-engineer-oriented-introductions).
+* [Specific topics](#specific-topcs).
   * [Hashing](#hashing) - important bits on modern and classic hashes.
   * [Secret key cryptography](#secret-key-cryptography) - all things symmetric encryption.
   * [Cryptoanalysis](#cryptoanalysis) - attacking cryptosystems.
@@ -28,9 +28,9 @@ It will be extended gradually as I find something of "must-have" value. Pull req
   * [Zero Knowledge Proofs](#zero-knowledge-proofs) - Proofs of knowledge and other non-revealing cryptosystems.
   * [Math](#math) - useful math materials in cryptographic context.
   * [Post-quantum cryptography](#post-quantum-cryptography) - Cryptography in post-quantum period.
-* [Books](#books)
-* [Lectures and educational courses](#lectures-and-educational-courses)
-* [Online crypto challenges](#online-crypto-challenges)
+* [Books](#books).
+* [Lectures and educational courses](#lectures-and-educational-courses).
+* [Online crypto challenges](#online-crypto-challenges).
 
 ## The list
 
