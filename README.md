@@ -175,6 +175,7 @@ Not exactly papers, but crypto challenges are awesome educational material.
 
 * [Cryptopals crypto challenges](https://cryptopals.com/).
 
+* [id0-rsa crypto challenges](https://id0-rsa.pub/).
 
 ## License
 
