@@ -177,6 +177,8 @@ Not exactly papers, but crypto challenges are awesome educational material.
 
 * [id0-rsa crypto challenges](https://id0-rsa.pub/).
 
+* [MTC3](https://www.mysterytwisterc3.org/en/) - xipher contest with more than 200 challenges of different levels, a moderated forum, and a hall-of-fame.
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
