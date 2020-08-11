@@ -79,7 +79,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Ongoing Research Areas in Symmetric Cryptography](http://www.ecrypt.eu.org/ecrypt1/documents/D.STVL.3-2.5.pdf) - Overview of ongoing research in secret key crypto and hashes by ECRYPT Network of Excellence in Cryptology.
 * [The Galois/Counter Mode of Operation (GCM)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.695&rep=rep1&type=pdf) - Original paper introducing GCM, by by David A. McGrew and John Viega.
 * [The Security and Performance of the Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - Design, analysis and security of GCM, and, more specifically, AES GCM mode, by David A. McGrew and John Viega.
-* [GCM Security Bounds Reconsidered](https://www.iacr.org/archive/fse2015/85400168/85400168.pdf - An analysis and algorithm for nonce generation for AES GCM with higher counter-collision probability, by Yuichi Niwa, Keisuke Ohashi, Kazuhiko Minematsu, Tetsu Iwata.
+* [GCM Security Bounds Reconsidered](https://www.iacr.org/archive/fse2015/85400168/85400168.pdf) - An analysis and algorithm for nonce generation for AES GCM with higher counter-collision probability, by Yuichi Niwa, Keisuke Ohashi, Kazuhiko Minematsu, Tetsu Iwata.
 * [Proxy-Mediated Searchable Encryption in SQL Databases Using Blind Indexes](https://eprint.iacr.org/2019/806.pdf) - An overview of existing searchable encryption schemes, and analysis of scheme built on AES-GCM, blind index and bloom filter by Eugene Pilyankevich, Dmytro Kornieiev, Artem Storozhuk.
 
 #### Cryptoanalysis
@@ -190,4 +190,3 @@ Not exactly papers, but crypto challenges are awesome educational material.
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, author has waived all copyright and related or neighboring rights to this work.
-
