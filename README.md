@@ -179,6 +179,8 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 
 Not exactly papers, but crypto challenges are awesome educational material.
 
+* [CryptoHack](https://cryptohack.org/)
+
 * [Cryptopals crypto challenges](https://cryptopals.com/).
 
 * [id0-rsa crypto challenges](https://id0-rsa.pub/).
