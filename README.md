@@ -22,7 +22,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Specific topics](#specific-topcs).
   * [Hashing](#hashing) - important bits on modern and classic hashes.
   * [Secret key cryptography](#secret-key-cryptography) - all things symmetric encryption.
-  * [Cryptoanalysis](#cryptoanalysis) - attacking cryptosystems.
+  * [Cryptanalysis](#cryptanalysis) - attacking cryptosystems.
   * [Public key cryptography: General and DLP](#public-key-cryptography-general-and-dlp) - RSA, DH and other classic techniques.
   * [Public key cryptography: Elliptic-curve crypto](#public-key-cryptography-elliptic-curve-crypto) - ECC, with focus on pratcial cryptosystems.
   * [Zero Knowledge Proofs](#zero-knowledge-proofs) - Proofs of knowledge and other non-revealing cryptosystems.
@@ -82,13 +82,13 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [GCM Security Bounds Reconsidered](https://www.iacr.org/archive/fse2015/85400168/85400168.pdf) - An analysis and algorithm for nonce generation for AES GCM with higher counter-collision probability, by Yuichi Niwa, Keisuke Ohashi, Kazuhiko Minematsu, Tetsu Iwata.
 * [Proxy-Mediated Searchable Encryption in SQL Databases Using Blind Indexes](https://eprint.iacr.org/2019/806.pdf) - An overview of existing searchable encryption schemes, and analysis of scheme built on AES-GCM, blind index and bloom filter by Eugene Pilyankevich, Dmytro Kornieiev, Artem Storozhuk.
 
-#### Cryptoanalysis
+#### Cryptanalysis
 
-* [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - A great example of stream cipher cryptoanalysis, by Yukiyasu Tsunoo et al.
-* [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - Applying slide attacks (typical cryptoanalysis technique for block ciphers) to hash functions, M. Gorski et al.
+* [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - A great example of stream cipher cryptanalysis, by Yukiyasu Tsunoo et al.
+* [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - Applying slide attacks (typical cryptanalysis technique for block ciphers) to hash functions, M. Gorski et al.
 * [Self-Study Course in Block Cipher Cryptanalysis](https://www.schneier.com/academic/archives/2000/01/self-study_course_in.html) - Attempt to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms, by Bruce Schneier.
 * [Statistical Cryptanalysis of Block Ciphers](http://crypto.junod.info/phdthesis.pdf) - By Pascal Junod.
-* [Cryptoanalysis of block ciphers and protocols](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
+* [Cryptanalysis of block ciphers and protocols](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
 * [Too much crypto](https://eprint.iacr.org/2019/1492.pdf) - Analysis of number of rounds for symmetric cryptography primitives, and suggestions to do fewer rounds, by Jean-Philippe Aumasson.
 * [How to Break MD5 and Other Hash Functions](https://iacr.org/archive/eurocrypt2005/34940019/34940019.pdf) - A 2005 paper about modular differential collision attack on MD5, MD4 and other hash functions, by Xiaoyun Wang and Hongbo Yu.
 * [New attacks on Keccak-224 and Keccak-256](https://www.iacr.org/archive/fse2012/75490447/75490447.pdf) - A 2012 paper about using the combination of differential and algebraic techniques for collision attacks on SHA-3, by Itai Dinur, Orr Dunkelman, Adi Shamir.
@@ -157,8 +157,8 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 That seems somewhat out of scope, isn't it? But these are books only fully available online for free. Read them as a sequence of papers if you will.
 
-* [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - By Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptoanalysis and cryptography-related security.
-* [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - Broad overview of design and cryptoanalysis of various ciphers and hash functions, by Bart Van Rompay.
+* [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - By Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptanalysis and cryptography-related security.
+* [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - Broad overview of design and cryptanalysis of various ciphers and hash functions, by Bart Van Rompay.
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook) - Predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) - By Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - By Mike Rosulek. A lot of basic stuff covered really well. No ECC.
