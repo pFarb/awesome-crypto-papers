@@ -125,15 +125,15 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 #### Zero Knowledge Proofs
 
-* [Proofs of knowledge](http://cseweb.ucsd.edu/~mihir/papers/pok.html) - A pair of papers which investigate the notions of proof of knowledge and proof of computational ability, M. Bellare and O. Goldreich.
+* [Proofs of knowledge](https://cseweb.ucsd.edu/~mihir/papers/pok.pdf) - A pair of papers which investigate the notions of proof of knowledge and proof of computational ability, M. Bellare and O. Goldreich.
 * [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - Classic paper by Goldreich,  Micali and Wigderson.
 * [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - By Goldreich,  Micali and Wigderson, a relative to the above. 
 * [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/).
-* [How to Prove a Theorem So No One Else Can Claim It](http://www.mathunion.org/ICM/ICM1986.2/Main/icm1986.2.1444.1451.ocr.pdf) - By Manuel Blum.
+* [How to Prove a Theorem So No One Else Can Claim It](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.9048&rep=rep1&type=pdf) - By Manuel Blum.
 * [Information Theoretic Reductions among Disclosure Problems](http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf) - Brassau et al.
-* [Knowledge complexity of interactive proof systems](http://groups.csail.mit.edu/cis/pubs/shafi/1989-siamjc.pdf) - By GoldWasser, Micali and Rackoff. Defining computational complexity of "knowledge" within zero knowledge proofs. 
+* [Knowledge complexity of interactive proof systems](https://github.com/manjunath5496/Shafi-Goldwasser-Publications/blob/master/1989-siamjc.pdf) - By GoldWasser, Micali and Rackoff. Defining computational complexity of "knowledge" within zero knowledge proofs. 
 * [A Survey of Zero-Knowledge Proofs with Applications to Cryptography](http://www.austinmohr.com/work/files/zkp.pdf) - Great intro on original ZKP protocols.
-* [Zero Knowledge Protocols and Small Systems](http://www.tml.tkk.fi/Opinnot/Tik-110.501/1995/zeroknowledge.html) - A good intro into Zero knowledge protocols.
+* [Zero Knowledge Protocols and Small Systems](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.186.4901&rep=rep1&type=pdf) - A good intro into Zero knowledge protocols.
 * [Multi-Theorem Preprocessing NIZKs from Lattices](https://link.springer.com/chapter/10.1007%2F978-3-319-96881-0_25) - Construction of non-interactive zero-knowledge (NIZK) proofs using lattice-based preprocessing models, by Sam Kim and David J. Wu.
 
 #### Key Management
@@ -160,7 +160,7 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - By Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptanalysis and cryptography-related security.
 * [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - Broad overview of design and cryptanalysis of various ciphers and hash functions, by Bart Van Rompay.
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook) - Predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
-* [Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/) - By Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
+* [Handbook of Applied Cryptography](https://cacr.uwaterloo.ca/hac/) - By Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - By Mike Rosulek. A lot of basic stuff covered really well. No ECC.
 * [A Computational Introduction to Number Theory and Algebra](http://www.shoup.net/ntb/) - By Victor Shoup, excellent starters book on math universally used in cryptography. 
 
