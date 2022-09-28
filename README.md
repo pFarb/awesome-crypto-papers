@@ -1,4 +1,4 @@
-# Awesome Crypto Papers  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome Crypto Papers  [![Awesome](https://raw.githubusercontent.com/sindresorhus/awesome/d2005375894e77d69827b0e3c17073bbf6f062d7/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of [cryptography](https://en.wikipedia.org/wiki/Cryptography) papers, articles, tutorials and howtos for non-cryptographers.
 
@@ -45,7 +45,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 * [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html) - By Gary C. Kessler.
 * [Using Encryption for Authentication in Large Networks](http://inst.eecs.berkeley.edu/~cs268/sp02/cached_papers/needham.pdf) - By Needham, Schroeder: this is were crypto-based auth starts.
-* [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon.
+* [Communication Theory of Secrecy Systems](http://web.archive.org/web/20201112040412/http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon.
 
 #### General cryptographic interest
 
@@ -76,7 +76,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [New Features of Latin Dances: Analysis of Salsa, ChaCha, and Rumba](https://eprint.iacr.org/2007/472.pdf) - Analysis of Salsa20 family of ciphers, by Jean-Philippe Aumasson et al.
 * [ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS)](https://tools.ietf.org/html/draft-ietf-tls-chacha20-poly1305-04) - IETF Draft of ciphersuite family, by Adam Langley et al.
 * [AES submission document on Rijndael](https://csrc.nist.gov/csrc/media/projects/cryptographic-standards-and-guidelines/documents/aes-development/rijndael-ammended.pdf#page=1) - Original Rijndael proposal by Joan Daemen and Vincent Rijmen.
-* [Ongoing Research Areas in Symmetric Cryptography](http://www.ecrypt.eu.org/ecrypt1/documents/D.STVL.3-2.5.pdf) - Overview of ongoing research in secret key crypto and hashes by ECRYPT Network of Excellence in Cryptology.
+* [Ongoing Research Areas in Symmetric Cryptography](https://web.archive.org/web/20220209130448/https://www.ecrypt.eu.org/ecrypt1/documents/D.STVL.3-2.5.pdf) - Overview of ongoing research in secret key crypto and hashes by ECRYPT Network of Excellence in Cryptology.
 * [The Galois/Counter Mode of Operation (GCM)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.694.695&rep=rep1&type=pdf) - Original paper introducing GCM, by by David A. McGrew and John Viega.
 * [The Security and Performance of the Galois/Counter Mode (GCM) of Operation](https://eprint.iacr.org/2004/193.pdf) - Design, analysis and security of GCM, and, more specifically, AES GCM mode, by David A. McGrew and John Viega.
 * [GCM Security Bounds Reconsidered](https://www.iacr.org/archive/fse2015/85400168/85400168.pdf) - An analysis and algorithm for nonce generation for AES GCM with higher counter-collision probability, by Yuichi Niwa, Keisuke Ohashi, Kazuhiko Minematsu, Tetsu Iwata.
@@ -84,7 +84,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 #### Cryptanalysis
 
-* [Differential Cryptanalysis of Salsa20/8](http://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - A great example of stream cipher cryptanalysis, by Yukiyasu Tsunoo et al.
+* [Differential Cryptanalysis of Salsa20/8](https://web.archive.org/web/20220710225943/https://www.ecrypt.eu.org/stream/papersdir/2007/010.pdf) - A great example of stream cipher cryptanalysis, by Yukiyasu Tsunoo et al.
 * [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - Applying slide attacks (typical cryptanalysis technique for block ciphers) to hash functions, M. Gorski et al.
 * [Self-Study Course in Block Cipher Cryptanalysis](https://www.schneier.com/academic/archives/2000/01/self-study_course_in.html) - Attempt to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms, by Bruce Schneier.
 * [Statistical Cryptanalysis of Block Ciphers](http://crypto.junod.info/phdthesis.pdf) - By Pascal Junod.
@@ -148,7 +148,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 #### Post-quantum cryptography
 
 * [Post-quantum cryptography - dealing with the fallout of physics success](https://eprint.iacr.org/2017/314.pdf) - Brief observation of mathematical tasks that can be used to build cryptosystems secure against attacks by post-quantum computers.
-* [Post-quantum cryptography](https://www.researchgate.net/profile/Nicolas_Sendrier/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - Introduction to post-quantum cryptography.
+* [Post-quantum cryptography](https://web.archive.org/web/20210510200628/https://www.researchgate.net/profile/Nicolas-Sendrier-2/publication/226115302_Code-Based_Cryptography/links/540d62d50cf2df04e7549388/Code-Based-Cryptography.pdf) - Introduction to post-quantum cryptography.
 * [Post-quantum RSA](https://cr.yp.to/papers/pqrsa-20170419.pdf) - Daniel Bernshtein's insight how to save RSA in post-quantum period.
 
 <hr>
@@ -158,7 +158,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 That seems somewhat out of scope, isn't it? But these are books only fully available online for free. Read them as a sequence of papers if you will.
 
 * [A Graduate Course in Applied Cryptography](https://crypto.stanford.edu/~dabo/cryptobook/) - By Dan Boneh and Victor Shoup. A well-balanced introductory course into cryptography, a bit of cryptanalysis and cryptography-related security.
-* [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - Broad overview of design and cryptanalysis of various ciphers and hash functions, by Bart Van Rompay.
+* [Analysis and design of cryptographic hash functions, MAC algorithms and block ciphers](https://web.archive.org/web/20220209130435/https://www.esat.kuleuven.be/cosic/publications/thesis-16.pdf) - Broad overview of design and cryptanalysis of various ciphers and hash functions, by Bart Van Rompay.
 * [CrypTool book](https://www.cryptool.org/en/ctp-documentation/ctbook) - Predominantly mathematically oriented information on learning, using and experimenting cryptographic procedures.
 * [Handbook of Applied Cryptography](https://cacr.uwaterloo.ca/hac/) - By Alfred J. Menezes, Paul C. van Oorschot and Scott A. Vanstone. Good classical introduction into cryptography and ciphers.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - By Mike Rosulek. A lot of basic stuff covered really well. No ECC.
