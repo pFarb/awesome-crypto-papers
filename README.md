@@ -43,7 +43,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 #### Brief introductions
 
-* [An Overview of Cryptography](http://www.garykessler.net/library/crypto.html) - By Gary C. Kessler.
+* [An Overview of Cryptography](http://web.archive.org/web/20220918232416/https://www.garykessler.net/library/crypto.html) - By Gary C. Kessler.
 * [Using Encryption for Authentication in Large Networks](http://inst.eecs.berkeley.edu/~cs268/sp02/cached_papers/needham.pdf) - By Needham, Schroeder: this is were crypto-based auth starts.
 * [Communication Theory of Secrecy Systems](http://netlab.cs.ucla.edu/wiki/files/shannon1949.pdf) - Fundamental cryptography paper by Claude Shannon.
 
