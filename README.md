@@ -122,6 +122,9 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Curve25519: new Diffie-Hellman speed records](https://cr.yp.to/ecdh/curve25519-20060209.pdf) - Paper on Curve25519.
 * [Software implementation of the NIST elliptic curves over prime fields](http://delta.cs.cinvestav.mx/~francisco/arith/julio.pdf) - Pracitcal example of implementing elliptic curve crypto, by M. Brown et al.
 * [High-speed high-security signatures](https://ed25519.cr.yp.to/ed25519-20110926.pdf) - Seminal paper on EdDSA signatures on ed25519 curve by Daniel J. Bernstein et al.
+* [Biased Nonce Sense: Lattice Attacks against Weak ECDSA Signatures in Cryptocurrencies](https://eprint.iacr.org/2019/023.pdf) - Computing private keys by analyzing and exploiting biases in ECDSA nonces.
+* [Minerva: The curse of ECDSA nonces](https://eprint.iacr.org/2020/728.pdf) - Exploiting timing/bit-length leaks for recovering private keys from ECDSA signatures
+* [LadderLeak: Breaking ECDSA With Less Than One Bit Of Nonce Leakage](https://eprint.iacr.org/2020/615.pdf) - Breaking 160-bit curve ECDSA using less than one bit leakage.
 
 #### Zero Knowledge Proofs
 
