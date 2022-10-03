@@ -1,0 +1,19 @@
+name: Links (Fail Fast)
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.5.1
+        with:
+          args: --verbose --no-progress './**/*.md' './**/*.html' --timeout 60
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
