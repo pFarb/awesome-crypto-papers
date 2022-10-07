@@ -95,6 +95,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [New attacks on Keccak-224 and Keccak-256](https://www.iacr.org/archive/fse2012/75490447/75490447.pdf) - A 2012 paper about using the combination of differential and algebraic techniques for collision attacks on SHA-3, by Itai Dinur, Orr Dunkelman, Adi Shamir.
 * [A Single-Key Attack on the Full GOST Block Cipher](https://www.iacr.org/archive/fse2011/67330297/67330297.pdf) - An attack ("Reflection-Meet-inthe-Middle Attack") on GOST block cipher that allows to recover key with 2^225 computations and 2^32 known plaintexts, by Takanori Isobe.
 * [Intro to Linear & Differential Cryptanalysis](http://www.cs.bc.edu/~straubin/crypto2017/heys.pdf) - A beginner-friendly paper explaining and demonstrating techniques for linear and differential cryptanalysis.
+* [MEGA: Malleable Encryption Goes Awry](https://mega-awry.io/pdf/mega-malleable-encryption-goes-awry.pdf) - Proof-of-concept versions of attacks on MEGA data storage. Showcasing their practicality and exploitability. [Official webpage](https://mega-awry.io/).
 
 #### Public key cryptography: General and DLP
 
