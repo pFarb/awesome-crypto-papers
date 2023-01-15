@@ -138,7 +138,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - By Goldreich,  Micali and Wigderson, a relative to the above. 
 * [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/).
 * [How to Prove a Theorem So No One Else Can Claim It](https://web.archive.org/web/20211122040931/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.9048&rep=rep1&type=pdf) - By Manuel Blum.
-* [Information Theoretic Reductions among Disclosure Problems](http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf) - Brassau et al.
+* [Information Theoretic Reductions among Disclosure Problems](https://web.archive.org/http://crypto.cs.mcgill.ca/~crepeau/BCR86.pdf) - Brassau et al.
 * [Knowledge complexity of interactive proof systems](https://github.com/manjunath5496/Shafi-Goldwasser-Publications/blob/master/1989-siamjc.pdf) - By GoldWasser, Micali and Rackoff. Defining computational complexity of "knowledge" within zero knowledge proofs. 
 * [A Survey of Zero-Knowledge Proofs with Applications to Cryptography](http://www.austinmohr.com/work/files/zkp.pdf) - Great intro on original ZKP protocols.
 * [Zero Knowledge Protocols and Small Systems](https://web.archive.org/web/20220211100630/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.26.585&rep=rep1&type=pdf) - A good intro into Zero knowledge protocols.
