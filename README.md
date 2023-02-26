@@ -89,7 +89,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - Applying slide attacks (typical cryptanalysis technique for block ciphers) to hash functions, M. Gorski et al.
 * [Self-Study Course in Block Cipher Cryptanalysis](https://www.schneier.com/academic/archives/2000/01/self-study_course_in.html) - Attempt to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms, by Bruce Schneier.
 * [Statistical Cryptanalysis of Block Ciphers](http://crypto.junod.info/phdthesis.pdf) - By Pascal Junod.
-* [Cryptanalysis of block ciphers and protocols](http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
+* [Cryptanalysis of block ciphers and protocols](https://web.archive.org/http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
 * [Too much crypto](https://eprint.iacr.org/2019/1492.pdf) - Analysis of number of rounds for symmetric cryptography primitives, and suggestions to do fewer rounds, by Jean-Philippe Aumasson.
 * [How to Break MD5 and Other Hash Functions](https://iacr.org/archive/eurocrypt2005/34940019/34940019.pdf) - A 2005 paper about modular differential collision attack on MD5, MD4 and other hash functions, by Xiaoyun Wang and Hongbo Yu.
 * [New attacks on Keccak-224 and Keccak-256](https://www.iacr.org/archive/fse2012/75490447/75490447.pdf) - A 2012 paper about using the combination of differential and algebraic techniques for collision attacks on SHA-3, by Itai Dinur, Orr Dunkelman, Adi Shamir.
