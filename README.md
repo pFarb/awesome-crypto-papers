@@ -165,6 +165,7 @@ That seems somewhat out of scope, isn't it? But these are books only fully avail
 * [Secret Key Cryptography](https://www.manning.com/books/secret-key-cryptography) - By Frank Rubin. A jargon-busting guide to the key concepts, terminology, and technologies of cybersecurity.
 * [The joy of Cryptography](http://web.engr.oregonstate.edu/~rosulekm/crypto/) - By Mike Rosulek. A lot of basic stuff covered really well. No ECC.
 * [A Computational Introduction to Number Theory and Algebra](http://www.shoup.net/ntb/) - By Victor Shoup, excellent starters book on math universally used in cryptography. 
+* [Implementing and Exploiting Cryptography](https://www.manning.com/books/implementing-and-exploiting-cryptography) - By Bill Cox and Kamran Khan. A book about how the good guys implement cryptography and how the bad guys exploit it.
 
 <hr>
 
