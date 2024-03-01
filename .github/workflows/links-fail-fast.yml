@@ -11,7 +11,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.1
+        uses: lycheeverse/lychee-action@v1.9.3
         with:
           args: --verbose --no-progress './**/*.md' './**/*.html' --timeout 60
           fail: true
