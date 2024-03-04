@@ -71,7 +71,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Recomendation for Block Cipher modes of operation: Methods and Techniques](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-38a.pdf).
 * [Stick figure guide to AES](http://www.moserware.com/2009/09/stick-figure-guide-to-advanced.html) - If stuff above was a bit hard or you're looking for a good laugh.
 * [Cache timing attacks on AES](http://cr.yp.to/antiforgery/cachetiming-20050414.pdf) - Example of designing great practical attack on cipher implementation, by Daniel J. Bernstein.
-* [Cache Attacks and Countermeasures: the Case of AES](http://cs.tau.ac.il/~tromer/papers/cache.pdf) - Side channel attacks on AES, another view, by Dag Arne Osvik, Adi Shamir and Eran Tromer.
+* [Cache Attacks and Countermeasures: the Case of AES](https://eprint.iacr.org/2005/271.pdf) - Side channel attacks on AES, another view, by Dag Arne Osvik, Adi Shamir and Eran Tromer.
 * [Salsa20 family of stream ciphers](https://cr.yp.to/snuffle/salsafamily-20071225.pdf) - Broad explanation of Salsa20 security cipher by Daniel J. Bernstein.
 * [New Features of Latin Dances: Analysis of Salsa, ChaCha, and Rumba](https://eprint.iacr.org/2007/472.pdf) - Analysis of Salsa20 family of ciphers, by Jean-Philippe Aumasson et al.
 * [ChaCha20-Poly1305 Cipher Suites for Transport Layer Security (TLS)](https://tools.ietf.org/html/draft-ietf-tls-chacha20-poly1305-04) - IETF Draft of ciphersuite family, by Adam Langley et al.
@@ -89,7 +89,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 * [Slide Attacks on a Class of Hash Functions](https://eprint.iacr.org/2008/263) - Applying slide attacks (typical cryptanalysis technique for block ciphers) to hash functions, M. Gorski et al.
 * [Self-Study Course in Block Cipher Cryptanalysis](https://www.schneier.com/academic/archives/2000/01/self-study_course_in.html) - Attempt to organize the existing literature of block-cipher cryptanalysis in a way that students can use to learn cryptanalytic techniques and ways to break new algorithms, by Bruce Schneier.
 * [Statistical Cryptanalysis of Block Ciphers](http://crypto.junod.info/phdthesis.pdf) - By Pascal Junod.
-* [Cryptanalysis of block ciphers and protocols](https://web.archive.org/http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
+* [Cryptanalysis of block ciphers and protocols](https://web.archive.org/web/20220929023539/http://www.cs.technion.ac.il/users/wwwb/cgi-bin/tr-info.cgi/2006/PHD/PHD-2006-04) - By Elad Pinhas Barkan.
 * [Too much crypto](https://eprint.iacr.org/2019/1492.pdf) - Analysis of number of rounds for symmetric cryptography primitives, and suggestions to do fewer rounds, by Jean-Philippe Aumasson.
 * [How to Break MD5 and Other Hash Functions](https://iacr.org/archive/eurocrypt2005/34940019/34940019.pdf) - A 2005 paper about modular differential collision attack on MD5, MD4 and other hash functions, by Xiaoyun Wang and Hongbo Yu.
 * [New attacks on Keccak-224 and Keccak-256](https://www.iacr.org/archive/fse2012/75490447/75490447.pdf) - A 2012 paper about using the combination of differential and algebraic techniques for collision attacks on SHA-3, by Itai Dinur, Orr Dunkelman, Adi Shamir.
@@ -101,10 +101,10 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 
 * [New Directions in Cryptography](https://www-ee.stanford.edu/~hellman/publications/24.pdf) - Seminal paper by Diffie and Hellman, introducing public key cryptography and key exchange/agreement protocol.
 * [RFC 2631: Diffie-Hellman Key Agreement](https://tools.ietf.org/html/rfc2631) - An explanation of the Diffie-Hellman methon in more engineering terms.
-* [A Method for Obtaining Digital Signatures and Public-Key Cryptosystems](https://web.williams.edu/Mathematics/lg5/302/RSA.pdf) -  Original paper introducing RSA algorithm. 
+* [A Method for Obtaining Digital Signatures and Public-Key Cryptosystems](https://people.csail.mit.edu/rivest/Rsapaper.pdf) -  Original paper introducing RSA algorithm.
 * [RSA Algorithm](http://www.di-mgt.com.au/rsa_alg.html) - Rather education explanation of every bit behind RSA.
 * [Secure Communications Over Insecure Channels ](http://www.ralphmerkle.com/1974/PuzzlesAsPublished.pdf) - Paper by R. Merkle,   predated "New directions in cryptography" though it was published after it. The Diffie-Hellman key exchange is an implementation of such a Merkle system.
-* [On the Security of Public Key Protocols ](http://www.cs.huji.ac.il/~dolev/pubs/dolev-yao-ieee-01056650.pdf) - Dolev-Yao model is a formal model, used to prove properties of interactive cryptographic protocols.
+* [On the Security of Public Key Protocols](https://web.archive.org/web/20230902163042/https://www.cs.huji.ac.il/~dolev/pubs/dolev-yao-ieee-01056650.pdf) - Dolev-Yao model is a formal model, used to prove properties of interactive cryptographic protocols.
 * [How to Share a Secret](https://github.com/arupmondal-cs/Crypto-Research/blob/master/Secret%20Sharing/shamirturing.pdf) - A safe method for sharing secrets.
 * [Twenty Years of Attacks on the RSA Cryptosystem](http://crypto.stanford.edu/~dabo/pubs/papers/RSA-survey.pdf) - Great inquiry into attacking RSA and it's internals, by Dan Boneh. 
 * [Remote timing attacks are practical](http://crypto.stanford.edu/~dabo/papers/ssl-timing.pdf) - An example in attacking practical crypto implementationby D. Boneh, D. Brumley.
@@ -134,7 +134,7 @@ It will be extended gradually as I find something of "must-have" value. Pull req
 #### Zero Knowledge Proofs
 
 * [Proofs of knowledge](https://cseweb.ucsd.edu/~mihir/papers/pok.pdf) - A pair of papers which investigate the notions of proof of knowledge and proof of computational ability, M. Bellare and O. Goldreich.
-* [How to construct zero-knowledge proof systems for NP](http://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - Classic paper by Goldreich,  Micali and Wigderson.
+* [How to construct zero-knowledge proof systems for NP](https://www.wisdom.weizmann.ac.il/~oded/gmw1.html) - Classic paper by Goldreich,  Micali and Wigderson.
 * [Proofs that yield nothing but their validity and a Methodology of Cryptographic protocol design](http://www.math.ias.edu/~avi/PUBLICATIONS/MYPAPERS/GMW86/GMW86.pdf) - By Goldreich,  Micali and Wigderson, a relative to the above. 
 * [A Survey of Noninteractive Zero Knowledge Proof System and Its Applications](https://www.hindawi.com/journals/tswj/2014/560484/).
 * [How to Prove a Theorem So No One Else Can Claim It](https://web.archive.org/web/20211122040931/https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.9048&rep=rep1&type=pdf) - By Manuel Blum.
